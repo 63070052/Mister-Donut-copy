@@ -26,10 +26,10 @@ a {
   width: 100%;
   background-image: url(http://www.misterdonut.co.th/img/nav-pattern.jpg);
 }
-#nav {
+#nav a{
   position: relative;
   top: -70px;
-  left: 20%;
+  left: 35%;
 }
 .home:hover {
   color: rgb(55, 55, 55);
@@ -59,6 +59,9 @@ a {
   color: rgb(55, 55, 55);
   transition: ease-in 0.2s;
 }
+.main-contact{
+  font-size: 15px;
+}
 .contact {
   width: 15px;
   padding: 5px;
@@ -79,6 +82,9 @@ a {
   transition: ease-in 0.2s;
   padding-right: 1%;
   padding:1%;
+}
+.icon_con:hover img{
+  filter: invert(100%);
 }
 .fb:hover{
   background-color: rgb(44, 111, 255);
@@ -109,6 +115,20 @@ a {
   width: 16%;
   height: 25px;
   position: relative;
-  top: -36px;
-  left: 50%;
+  top: -130px;
+  left: 70%;
+}
+.nav2{
+  position: relative;
+  top: -137px;
+  left: 56.5%;
+  font-size: 75%;
+}
+.careers:hover {
+  color: rgb(55, 55, 55);
+  transition: ease-in 0.2s;
+}
+.contact-us:hover {
+  color: rgb(55, 55, 55);
+  transition: ease-in 0.2s;
 }
