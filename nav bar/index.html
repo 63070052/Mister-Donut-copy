@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png">
+    <link rel="stylesheet" href="nav-bar.css" />
+    <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <title>NAV BAR</title>
   </head>
-  <body>
-    <div id="up">
-      <p id="hello">GOOD MORNING...</p>
+  <body style="overflow-x: hidden;">
+    <div id="up" class="container-fluid">
+      <p id="hello">HELLO...</p>
       <ul>
         <a
           href="https://www.facebook.com/MisterDonutThailand"
@@ -40,7 +47,7 @@
         <a
           href="https://twitter.com/MisterdonutThai"
           target="_blank"
-          class="icon_con t"
+          class="icon_con tw"
         >
           <img
             src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png"
@@ -76,7 +83,11 @@
       </ul>
     </div>
     <div id="main_nav">
-      <img src="http://www.misterdonut.co.th/img/logo.png" class="logo" id="logo"/>
+      <img
+        src="http://www.misterdonut.co.th/img/logo.png"
+        class="logo"
+        id="logo"
+      />
       <div id="nav">
         <a href="/html/" class="nav-text">HOME</a>
         <a href="/css/" class="nav-text">ABOUT US</a>
@@ -95,19 +106,19 @@
         <a href="/css/" class="nav2 contact-us">CONTACT US</a>
       </div>
     </div>
-      <!-- เนื้อหา เปิด-->
-      <!-- เนิ้อหา ปิด -->
+    <!-- เนื้อหา เปิด-->
+    <!-- เนิ้อหา ปิด -->
     <footer>
-      <div id="nav-footer">
-        <a href="/html/" class="nav-text">HOME</a>
-        <a href="/css/" class="nav-text">ABOUT US</a>
-        <a href="/js/" class="nav-text">MENU</a>
-        <a href="/python/" class="nav-text">PROMOTIONS</a>
-        <a href="/python/" class="nav-text">NEWS & ACTIVITY</a>
-        <a href="/python/" class="nav-text">SNACK BOX & CATERING</a>
-        <a href="/python/" class="nav-text">BRANCH</a>
-        <a href="/python/" class="nav-text">CAREERS</a>
-        <a href="/python/" class="nav-text">CONTECT US</a>
+      <div class="nav-footer">
+        <a href="/html/" class="home">HOME</a>
+        <a href="/css/" class="about-us">ABOUT US</a>
+        <a href="/js/" class="menu">MENU</a>
+        <a href="/python/" class="promotion">PROMOTIONS</a>
+        <a href="/python/" class="news">NEWS & ACTIVITY</a>
+        <a href="/python/" class="snack">SNACK BOX & CATERING</a>
+        <a href="/python/" class="branch">BRANCH</a>
+        <a href="/python/" class="careers">CAREERS</a>
+        <a href="/python/" class="contact-us">CONTACT US</a>
       </div>
       <div id="icon-footer">
         <ul class="icon-footer">
@@ -118,7 +129,7 @@
             <img
               src="https://cdn-icons-png.flaticon.com/512/20/20837.png"
               alt="facebook"
-              class="contact-footer fb"
+              class="img-footer fb"
             />
           </a>
           <a
@@ -128,7 +139,7 @@
             <img
               src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png"
               alt="instagram"
-              class="contact-footer ig"
+              class="img-footer ig"
             />
           </a>
           <a
@@ -138,7 +149,7 @@
             <img
               src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png"
               alt="twitter"
-              class="contact-footer t"
+              class="img-footer tw"
             />
           </a>
           <a
@@ -148,17 +159,18 @@
             <img
               src="https://cdn-icons-png.flaticon.com/512/37/37922.png"
               alt="youtube"
-              class="contact-footer yt"
+              class="img-footer yt"
             />
           </a>
           <a
             href="http://line.me/ti/p/%40mister.donut"
             target="_blank"
+            
           >
             <img
               src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png"
               alt="line"
-              class="contact-footer l"
+              class="img-footer l"
             />
           </a>
         </ul>
