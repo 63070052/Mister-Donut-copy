@@ -21,7 +21,7 @@ setTimeout(() => {
 }, 1000);
 
 function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     document.getElementById("logo").style.width = "75px"
     document.getElementById("main_nav").style.height = "60px";
     document.getElementById("main_nav").style.top = "0px";
