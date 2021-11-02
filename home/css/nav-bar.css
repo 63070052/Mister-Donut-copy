@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+#up {
+  position: relative;
+  background-color: white;
+  height: 45px;
+}
+#up p {
+  position: relative;
+  top: 25%;
+  left: 12%;
+  width: 300px;
+  font-size: 13px;
+  color: red;
+}
+#up img {
+  width: 15px;
+  position: relative;
+}
+#up ul {
+  position: relative;
+  width: 500px;
+  left: 70%;
+  top: -12px;
+}
+#up a {
+  color: white;
+  text-decoration: none;
+  margin: 4px;
+}
+#nav2 {
+  display: block;
+}
+#nav2 a {
+  text-decoration: none;
+}
+#main_nav {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-image: url(http://www.misterdonut.co.th/img/nav-pattern.jpg);
+  transition: height 0.5s;
+}
+#nav {
+  position: relative;
+  top: 5%;
+}
+#nav a {
+  position: relative;
+  color: white;
+  top: -70px;
+  left: 35%;
+  padding: 5px;
+  text-decoration: none;
+}
+#icon-footer{
+  position: relative;
+  width: 20%;
+  height: 31px;
+  top: 10%;
+  left: 38%;
+  text-align: center;
+  border-top: grey 0.5px solid;
+  border-bottom: grey 0.5px solid;
+}
+#nav a:hover {
+  color: rgb(55, 55, 55);
+  transition: ease-in 0.2s;
+}
+#copyright{
+  position: relative;
+  color: gray;
+  text-align: center;
+  top: 35px;
+  padding-bottom: 2%;
+}
+.nav-footer{
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  padding: 3%;
+}
+.nav-footer a{
+  color: gray;
+  margin: 1%;
+}
+.home:hover,
+.about-us:hover,
+.menu:hover,
+.promotion:hover,
+.news:hover,
+.snack:hover,
+.branch:hover,
+.careers:hover,
+.contact-us:hover
+{
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  transition: ease-in 0.3s;
+}
+
+.nav2 {
+  position: relative;
+  display: inline;
+  color: white;
+  top: -125px;
+  left: 56.5%;
+  padding: 0.25%;
+  font-size: 75%;
+}
+.small {
+  width: 16%;
+  height: 25px;
+  position: relative;
+  top: -124px;
+  left: 70%;
+}
+.logo {
+  width: 125px;
+  left: 12%;
+  position: relative;
+  transition: width 0.4s;
+}
+.main_contect {
+  font-size: 15px;
+}
+.icon_con {
+  position: relative;
+  top: -15px;
+  padding: 2px;
+}
+.icon_con span {
+  display: none;
+  color: white;
+  opacity: 0;
+}
+.icon_con:hover {
+  transition: ease-in 0.2s;
+  padding: 3%;
+}
+.icon_con:hover img {
+  filter: invert(100%);
+}
+.icon_con:hover span {
+  display: inline;
+  padding-left: 10px;
+  opacity: 1;
+}
+.img-footer {
+  width: 17px;
+  position: relative;
+  margin: 2px;
+}
+.img-footer:hover{
+  transition: ease-in 0.2s;
+  margin: 2%;
+  text-decoration: none;
+}
+.img-footer:hover img {
+  filter: invert(100%);
+}
+.fb:hover {
+  background-color: rgb(44, 111, 255);
+}
+.ig:hover {
+  background-color: rgb(63, 100, 179);
+}
+.tw:hover {
+  background-color: rgb(44, 171, 255);
+}
+.yt:hover {
+  background-color: rgb(255, 0, 0);
+}
+.l:hover {
+  background-color: rgb(18, 218, 0);
+}
