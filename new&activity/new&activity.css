@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@900&family=Varela+Round&display=swap');
+.main{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    position: relative;
+    z-index:-60;
+}
+.img1{
+    width: 100%;
+}
+.imgopa{
+    width: 100%;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.txt1{
+    text-align: center;
+}
+.line1_1{
+    border-bottom: gray 0.5px solid;
+}
+.newact{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #603913;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+.dt1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e10f21;
+    margin: 0;
+}
+.dt2{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+    line-height: initial;
+    text-align: center;
+}
+.imgopa:hover{
+    opacity: 80%;
+}
