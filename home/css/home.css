@@ -117,8 +117,9 @@
     align-items: center;
 }
 
-.img-circle:hover{
-    opacity: 0.5;
+.hover-img1:hover{
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 .update-zone{
