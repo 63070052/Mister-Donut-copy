@@ -48,11 +48,11 @@
     padding: 0;
 }
 
-.container {
+.container1 {
     justify-content: center;
     text-align: center;
-    margin-top: 140px;
 }
+
 .conta1{
     justify-content: center;
     text-align: center;
@@ -68,10 +68,9 @@
     font-family: 'DB HelvethaicaMon X Bd Cond' !important; 
     line-height: 0px;
     color: #dd343c; 
-    
-     
     margin-bottom: 12px; 
 }
+
 .lineh2 {
     font-family: 'DB HelvethaicaMon X' !important; 
     font-size: 20px;
@@ -159,6 +158,7 @@
 }
 
 .allvdo{
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     width: 100%;
