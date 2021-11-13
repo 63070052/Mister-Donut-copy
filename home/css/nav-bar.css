@@ -1,165 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-* {
-  font-family: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@900&family=Varela+Round&display=swap%27");
+#hello {
+  float: left;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Kanit", sans-serif;
+  color: #e10f21;
+  font-weight: 700;
 }
-#up {
+.nav-top ul {
   position: relative;
-  background-color: white;
-  height: 45px;
+  float: right;
 }
-#up p {
-  position: relative;
-  top: 25%;
-  left: 12%;
-  width: 300px;
-  font-size: 13px;
-  color: red;
+body {
+  overflow-x: hidden;
 }
-#up img {
-  width: 15px;
-  position: relative;
+ul a {
+  padding: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
-#up ul {
-  position: relative;
-  width: 500px;
-  left: 70%;
-  top: -12px;
+footer {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
-#up a {
-  color: white;
-  text-decoration: none;
-  margin: 4px;
-}
-#nav2 {
-  display: block;
-}
-#nav2 a {
-  text-decoration: none;
-}
-#main_nav {
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  background-image: url(http://www.misterdonut.co.th/img/nav-pattern.jpg);
-  transition: height 0.5s;
-}
-#nav {
-  position: relative;
-  top: 5%;
-}
-#nav a {
-  position: relative;
-  color: white;
-  top: -70px;
-  left: 35%;
+footer a {
   padding: 5px;
-  text-decoration: none;
+  color: #8d8881;
 }
-#icon-footer{
-  position: relative;
-  width: 20%;
-  height: 31px;
-  top: 10%;
-  left: 38%;
-  text-align: center;
-  border-top: grey 0.5px solid;
-  border-bottom: grey 0.5px solid;
+.icon-top {
+  width: 15px;
 }
-#nav a:hover {
-  color: rgb(55, 55, 55);
-  transition: ease-in 0.2s;
-}
-#copyright{
-  position: relative;
-  color: gray;
-  text-align: center;
-  top: 35px;
-  padding-bottom: 2%;
-}
-.nav-footer{
-  text-align: center;
-  font-size: 13px;
-  position: relative;
-  padding: 3%;
-}
-.nav-footer a{
-  color: gray;
-  margin: 1%;
-}
-.home:hover,
-.about-us:hover,
-.menu:hover,
-.promotion:hover,
-.news:hover,
-.snack:hover,
-.branch:hover,
-.careers:hover,
-.contact-us:hover
-{
-  color: rgb(55, 55, 55);
-  text-decoration: none;
-  transition: ease-in 0.3s;
-}
-
-.nav2 {
-  position: relative;
-  display: inline;
-  color: white;
-  top: -125px;
-  left: 56.5%;
-  padding: 0.25%;
-  font-size: 75%;
-}
-.small {
-  width: 16%;
-  height: 25px;
-  position: relative;
-  top: -124px;
-  left: 70%;
-}
-.logo {
-  width: 125px;
-  left: 12%;
-  position: relative;
-  transition: width 0.4s;
-}
-.main_contect {
-  font-size: 15px;
-}
-.icon_con {
-  position: relative;
-  top: -15px;
-  padding: 2px;
-}
-.icon_con span {
+.main-contact span {
   display: none;
-  color: white;
   opacity: 0;
 }
-.icon_con:hover {
-  transition: ease-in 0.2s;
-  padding: 3%;
+.text-icon {
+  transition: 0.5s;
 }
-.icon_con:hover img {
+.text-icon:hover img {
   filter: invert(100%);
 }
-.icon_con:hover span {
+.text-icon:hover span {
+  color: white;
   display: inline;
-  padding-left: 10px;
+  padding-left: 17px;
   opacity: 1;
 }
-.img-footer {
-  width: 17px;
+.nav-bottom {
+  height: 100px;
   position: relative;
-  margin: 2px;
+  width: 105%;
+  background-image: url(/pj/navbar/img/nav-pattern.jpg);
+  z-index: 10;
 }
-.img-footer:hover{
-  transition: ease-in 0.2s;
-  margin: 2%;
-  text-decoration: none;
-}
-.img-footer:hover img {
-  filter: invert(100%);
+#nav-bottom {
+  position: fixed;
+  top: 43px;
+  transition: 0.2s;
 }
 .fb:hover {
   background-color: rgb(44, 111, 255);
@@ -173,6 +71,173 @@
 .yt:hover {
   background-color: rgb(255, 0, 0);
 }
-.l:hover {
+.line:hover {
   background-color: rgb(18, 218, 0);
+}
+
+.logo {
+  width: 115px;
+  display: block;
+  position: relative;
+  float: left;
+  transition: 0.2s;
+  left: -50px;
+}
+
+.nav-text {
+  transition: 0.2s;
+}
+.nav-text:hover {
+  color: #603913;
+}
+.nav-text-bottom {
+  position: relative;
+  left: 200px;
+  top: 10px;
+  transition: 0.3s;
+}
+.nav-text-bottom a {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline;
+}
+.small {
+  background: no-repeat;
+  background-image: url(/pj/navbar/img/bg-contact-bar.png);
+  width: 80%;
+  position: relative;
+  left: 760px;
+  height: 30px;
+}
+#small {
+  display: flex;
+}
+.small a {
+  position: relative;
+  top: -3px;
+  left: 30px;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 7px;
+}
+.small p {
+  position: relative;
+  top: -6px;
+  left: 30px;
+  color: white;
+  padding: 7px;
+}
+.nav-text-top {
+  transition: 0.2s;
+}
+.nav-text-top:hover {
+  color: #75706a;
+}
+.icon-bottom {
+  width: 15px;
+  transition: 0.5s;
+}
+.box-icon {
+  height: 35px;
+  position: relative;
+}
+.icon-bottom:hover {
+  transform: scale(1.2);
+  filter: invert(100%);
+}
+.copyright {
+  color: #8d8881;
+  padding: 40px 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.footer-text {
+  transition: 0.3s;
+}
+.footer-text:hover {
+  color: black;
+}
+.menu {
+  filter: invert(100%);
+  position: absolute;
+  top: 40px;
+  left: 85%;
+  width: 25px;
+  display: none;
+}
+#hide {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  right: -300px;
+  background-color: #673b0f;
+}
+.hide-text {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  font-size: 90%;
+  color: white;
+  transition: 0.2s;
+}
+.hide-text-last {
+  font-size: 10px;
+  color: white;
+}
+.hide-text-bottom {
+  position: relative;
+  top: 50%;
+}
+.hide-text:hover {
+  color: #75706a;
+}
+#close {
+  filter: invert(100%);
+}
+#close {
+  z-index: 10;
+  width: 30px;
+  padding: 7px;
+  position: relative;
+  float: right;
+  background-color: #b2d3f3;
+  animation: none;
+}
+@keyframes show {
+  0%{
+    right: -300px;
+  }
+  100%{
+    right: 0;
+  }
+}
+@keyframes close {
+  0%{
+    right: 0;
+  }
+  100%{
+    right: -300px;
+  }
+}
+@keyframes ons {
+  0%{
+    filter: brightness(0);
+  }
+  100%{
+    filter: brightness(0.30);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: flex;
+  }
+  .nav-text-bottom,
+  #footer-text-top,
+  #small {
+    display: none;
+  }
 }
