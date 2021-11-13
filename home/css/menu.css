@@ -52,6 +52,7 @@
   letter-spacing: 1px;
   color: #603913;
   font-size: 48px;
+  text-transform: uppercase;
   font-family: 'DB HelvethaicaMon X Bd Cond' !important; 
 }
 
@@ -85,7 +86,7 @@
 }
 
 /* กล่องเมนูกล่องใหญ่ */
-.menu {
+.menu1-1 {
   align-items: baseline;
   display: flex;
   flex-direction: row;
@@ -257,8 +258,6 @@
 
 } 
 
-
-
 .hightline{
   position: relative;
   width:100%;
@@ -272,4 +271,3 @@
   left: 140px;
   position: relative;
 }
-
