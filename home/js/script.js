@@ -21,19 +21,29 @@ setTimeout(() => {
 }, 1000);
 
 function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("logo").style.width = "75px"
-    document.getElementById("main_nav").style.height = "60px";
-    document.getElementById("main_nav").style.top = "0px";
-    document.getElementById("nav").style.top = "30px";
-    document.getElementById("nav2").style.display = "none";
-    document.getElementById("up").style.display = "inline";
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("nav-bottom").style.height = "70px";
+    document.getElementById("nav-bottom").style.top = "0px";
+    document.getElementById("logo").style.width = "75px";
+    document.getElementById("small").style.display = "none";
+    document.getElementById("nav-text-bottom").style.top = "20px";
+    document.getElementById("menu").style.top = "20px";
   } else {
-    document.getElementById("logo").style.width = "125px";
-    document.getElementById("main_nav").style.height = "100px";
-    document.getElementById("main_nav").style.top = "45px";
-    document.getElementById("nav").style.top = "5%";
-    document.getElementById("nav2").style.display = "inline";
-    document.getElementById("up").style.display = "block";
-  }
+    document.getElementById("nav-bottom").style.height = "100px";
+    document.getElementById("nav-bottom").style.top = "43px";
+    document.getElementById("logo").style.width = "115px";
+    document.getElementById("small").style.display = "flex";
+    document.getElementById("nav-text-bottom").style.top = "10px";
+    document.getElementById("menu").style.top = "40px";
+}
+}
+function closed() {
+  console.log(1);
+  document.getElementById("hide").style.animation = "close 1s";
+  document.getElementById("hide").style.right = "-300px";
+}
+function menu() {
+  console.log(1);
+  document.getElementById("hide").style.animation = "show 1s";
+  document.getElementById("hide").style.right = 0;
 }
